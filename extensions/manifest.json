@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Edge Trans Bug Fix Code/Kbd Tag",
+  "version": "1.0",
+  "description": "Một tiện ích mở rộng mẫu",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
